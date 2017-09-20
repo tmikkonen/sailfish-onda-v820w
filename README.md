@@ -17,7 +17,7 @@ The update script was created on Onda V820W V5 but should work also on V3. Curre
 ### Update
 
 * After first boot, skip the Sailfish Tutorial by tapping screen corners clockwise starting from the top left
-* Connect to the Internet, create new/use existing Jolla Account, enable _Developer mode_ and allow _Untrusted software_
+* Connect to the Internet, create new/use existing Jolla Account, enable _Developer mode_ and allow _Untrusted software_ in Settings
 * Start Terminal
 * `devel-su`, enter password
 * get script `curl -o update-onda.sh --url https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/update-onda.sh`
