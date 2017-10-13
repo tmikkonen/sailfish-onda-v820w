@@ -20,6 +20,6 @@ The update script was created on Onda V820W V5 but should work also on V3. Curre
 * Connect to the Internet, create new/use existing Jolla Account, enable _Developer mode_ and allow _Untrusted software_ in Settings
 * Start Terminal
 * `devel-su`, enter password
-* get script `curl -o update-onda.sh --url https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/update-onda.sh`
+* get script `curl -O --url https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/update-onda.sh`
 * make sure it is executable `chmod u+x update-onda.sh`
 * run script `./update-onda.sh`
