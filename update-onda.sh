@@ -19,7 +19,7 @@ rm -f /lib/modules/3.10.20/*.ko
 echo yes | zypper ref -f
 
 # reinstall device-specific packages
-zypper install -f -y droid-bin-tbj-onda-v820w-v3 droid-config-tbj-onda-v820w-v3 droid-config-tbj-onda-v820w-v3-flashing droid-config-tbj-onda-v820w-v3-kickstart-configuration droid-config-tbj-onda-v820w-v3-patterns droid-config-tbj-onda-v820w-v3-policy-settings droid-config-tbj-onda-v820w-v3-preinit-plugin droid-config-tbj-onda-v820w-v3-pulseaudio-settings droid-config-tbj-onda-v820w-v3-sailfish droid-config-tbj-onda-v820w-v3-ssu-kickstarts droid-hal-tbj-onda-v820w-v3 droid-hal-tbj-onda-v820w-v3-detritus droid-hal-tbj-onda-v820w-v3-kernel  droid-hal-tbj-onda-v820w-v3-kernel-modules droid-hal-tbj-onda-v820w-v3-tools
+zypper install -f -y droid-bin-tbj-onda-v820w-v3 droid-config-tbj-onda-v820w-v3 droid-config-tbj-onda-v820w-v3-flashing droid-config-tbj-onda-v820w-v3-kickstart-configuration droid-config-tbj-onda-v820w-v3-patterns droid-config-tbj-onda-v820w-v3-policy-settings droid-config-tbj-onda-v820w-v3-preinit-plugin droid-config-tbj-onda-v820w-v3-pulseaudio-settings droid-config-tbj-onda-v820w-v3-sailfish droid-config-tbj-onda-v820w-v3-ssu-kickstarts droid-hal-tbj-onda-v820w-v3 droid-hal-tbj-onda-v820w-v3-detritus droid-hal-tbj-onda-v820w-v3-kernel droid-hal-tbj-onda-v820w-v3-kernel-modules droid-hal-tbj-onda-v820w-v3-tools
 
 depmod -a
 
