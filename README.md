@@ -38,15 +38,18 @@ The update script was created on Onda V820W V5 but should work also on V3. Curre
 
 . . .
 
-`ssu re 3.0.0.8
+```
+ssu re 3.0.0.8
 version --dup
-reboot`
-
+reboot
+```
 . . .
 
-`ssu re 3.0.2.8
+```
+ssu re 3.0.2.8
 version --dup
-reboot`
+reboot
+```
 
 ### Notes
 * If charging while upgrading, plug in the cable only after every boot & make sure to select _Charging Only_
