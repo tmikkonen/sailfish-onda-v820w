@@ -31,7 +31,7 @@ The scripts were created on Onda V820W V5 but should work also on V3. Currently 
 * get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.2.0.29.sh`
 * make sure it is executable `chmod u+x upgrade-2.2.0.29.sh`
 * run script `./upgrade-2.2.0.29.sh`  
-The script probably presents you with choices as solution to problems.  
+The script probably presents you with choices as solutions to problems.  
 To the first number choice answer with `1` to deinstall packages and then `y`,  
 to the second number choice answer with `2` to break pattern and then `y`.
 
@@ -50,7 +50,7 @@ ssu re 3.0.2.8
 version --dup
 reboot
 ```
-GUI updates might also be possible from now own as a test upgrade to 3.0.3.8 seemed to work fine. Take this with a grain of salt, though.  
+GUI updates might also be possible as a test upgrade to 3.0.3.8 worked fine. Take this with a grain of salt, though.  
 
 ### Manual fixes to packages
 Some features seem to be broken i.e. missing keyboard layouts, no Untrusted software option in Settings, maybe others.
