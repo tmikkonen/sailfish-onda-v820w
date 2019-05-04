@@ -32,18 +32,15 @@ The update script was created on Onda V820W V5 but should work also on V3. Curre
 * make sure it is executable `chmod u+x upgrade-2.2.0.29.sh`
 * run script `./upgrade-2.2.0.29.sh`
 
-### Upgrade through the [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4)
+### Upgrade to Sailfish 3
 * Start Terminal
 * `devel-su`, enter password
-
-. . .
-
 ```
 ssu re 3.0.0.8
 version --dup
 reboot
 ```
-. . .
+From now on it should be possible to upgrade quite easily e.g. 
 
 ```
 ssu re 3.0.2.8
@@ -52,4 +49,5 @@ reboot
 ```
 
 ### Notes
+* 2.2.0.29 & 3.0.0.8 are [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4) that cannot be skipped while upgrading
 * If charging while upgrading, plug in the cable only after every boot & make sure to select _Charging Only_
