@@ -16,6 +16,7 @@ ssu dr adaptation1
 rm -f /lib/modules/3.10.20/*.ko
 
 # refresh
+sleep 10
 echo yes | zypper ref -f
 
 # reinstall device-specific packages
