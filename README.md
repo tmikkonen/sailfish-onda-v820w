@@ -1,10 +1,10 @@
 ## sailfish-onda-v820w
 Install & update Sailfish OS on Onda V820W V3/V5 tablets.
 
-Credit for the Onda V820W Sailfish port and original update instructions goes to TheKit.  
+Credit for the Onda V820W Sailfish port and original upgrade instructions goes to TheKit.  
 See [talk.maemo.org](http://talk.maemo.org/showthread.php?t=96708). Thanks to everyone contributing to the thread!
 
-The update script was created on Onda V820W V5 but should work also on V3. Currently the main(/only?) difference between the two tablets is the missing sound on V5.
+The scripts were created on Onda V820W V5 but should work also on V3. Currently the main(/only?) difference between the two tablets is the missing sound on V5.
 
 ### Install
 
