@@ -32,8 +32,8 @@ The update script was created on Onda V820W V5 but should work also on V3. Curre
 * make sure it is executable `chmod u+x upgrade-2.2.0.29.sh`
 * run script `./upgrade-2.2.0.29.sh`  
 The script probably presents you with choices as solution to problems.  
-To the first number choice answer with `1` to deinstall packages and then `y`.  
-To the second number choice answer with `2` to break pattern and then `y`
+To the first number choice answer with `1` to deinstall packages and then `y`,  
+to the second number choice answer with `2` to break pattern and then `y`.
 
 ### Upgrade to Sailfish 3
 * Start Terminal
