@@ -20,7 +20,7 @@ The update script was created on Onda V820W V5 but should work also on V3. Curre
 * Connect to the Internet, create new/use existing Jolla Account, enable _Developer mode_ and allow _Untrusted software_ in Settings
 * Start Terminal
 * `devel-su`, enter password
-* get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/update-onda.sh`
+* get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.0.5.6.sh`
 * make sure it is executable `chmod u+x upgrade-2.0.5.6.sh`
 * run script `./upgrade-2.0.5.6.sh`
 
@@ -31,6 +31,9 @@ The update script was created on Onda V820W V5 but should work also on V3. Curre
 * get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.2.0.29.sh`
 * make sure it is executable `chmod u+x upgrade-2.2.0.29.sh`
 * run script `./upgrade-2.2.0.29.sh`
+The script probably presents you with choices as solution to problems.  
+To the first number choice answer with `1` to deinstall packages and then `y`.  
+To the second number choice answer with `2` to break pattern and then `y`
 
 ### Upgrade to Sailfish 3
 * Start Terminal
@@ -47,7 +50,7 @@ ssu re 3.0.2.8
 version --dup
 reboot
 ```
-GUI updates might also be possible but untested.
+GUI updates might also be possible from now own as a test upgrade to 3.0.3.8 seemed to work fine. Take this with a grain of salt, though.  
 
 ### Manual fixes to packages
 Some features seem to be broken i.e. missing keyboard layouts, no Untrusted software option in Settings, maybe others.
@@ -59,5 +62,4 @@ pkcon install jolla-keyboard-layout-all jolla-settings-system-sideloading
 ```
  
 ## Notes
-* 2.2.0.29 & 3.0.0.8 are [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4) that cannot be skipped while upgrading
-* If charging while upgrading, plug in the cable only after every boot & select _Charging Only_
+* 2.2.0.29 & 3.0.0.8 are [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4) that must be upgraded in succession - others will probably exist in the future, see the previous link for details
