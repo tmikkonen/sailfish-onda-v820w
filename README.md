@@ -49,7 +49,7 @@ reboot
 ```
 GUI updates might also be possible but untested.
 
-## Manual fixes to packages
+### Manual fixes to packages
 Some features seem to be broken i.e. missing keyboard layouts, no Untrusted software option in Settings, maybe others.
 
 These need to be corrected by running
@@ -58,6 +58,6 @@ pkcon refresh
 pkcon install jolla-keyboard-layout-all jolla-settings-system-sideloading
 ```
  
-### Notes
+## Notes
 * 2.2.0.29 & 3.0.0.8 are [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4) that cannot be skipped while upgrading
 * If charging while upgrading, plug in the cable only after every boot & select _Charging Only_
