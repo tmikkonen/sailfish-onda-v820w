@@ -21,19 +21,17 @@ The scripts were created on Onda V820W V5 but should work also on V3. Currently 
 * Add a _Jolla Account_ and Turn on WLAN & connect to the Internet when prompted
 * Create new/use existing credentials (speed up the process by unselecting & skipping any installations at this time)
 * Switch the Sailfish OS update check from _Automatic_ to _Manual_
-* Start Terminal
-  * `devel-su`, enter password
-  * get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.0.5.6.sh`
-  * make sure it is executable `chmod u+x upgrade-2.0.5.6.sh`
-  * run script `./upgrade-2.0.5.6.sh`
+* `devel-su`, enter password  
+  get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.0.5.6.sh`  
+  make sure it is executable `chmod u+x upgrade-2.0.5.6.sh`  
+  run script `./upgrade-2.0.5.6.sh`
 
 ### Upgrade to 2.2.0.29
 (from 2.0.5.6)
-* Start Terminal
-  * `devel-su`, enter password
-  * get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.2.0.29.sh`
-  * make sure it is executable `chmod u+x upgrade-2.2.0.29.sh`
-  * run script `./upgrade-2.2.0.29.sh`  
+* `devel-su`, enter password  
+  get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.2.0.29.sh`  
+  make sure it is executable `chmod u+x upgrade-2.2.0.29.sh`  
+  run script `./upgrade-2.2.0.29.sh`  
 The script probably presents you with choices as solutions to problems.  
 To the first number choice answer with `1` to deinstall packages and then `y`,  
 to the second number choice answer with `2` to break pattern and then `y`.
@@ -50,8 +48,7 @@ zypper in jolla-keyboard-layout-all jolla-settings-system-sideloading
 ```
 
 ### Upgrade to Sailfish 3
-* Start Terminal
-  * `devel-su`, enter password
+* `devel-su`, enter password
 ```
 ssu re 3.0.0.8
 version --dup
@@ -66,7 +63,7 @@ reboot
 ```
 GUI updates seem to be also possible as a test upgrade worked fine. Take this with a grain of salt, though.  
 
-The Sailfish OS update check can now be turned back to Automatic, if prefered.
+The Sailfish OS update check can now be turned back to _Automatic_, if prefered.
  
 ## Notes
 * 2.2.0.29 & 3.0.0.8 are [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4) that must be upgraded in succession - others will probably exist in the future, see the previous link for details.
