@@ -67,4 +67,4 @@ The Sailfish OS update check can now be turned back to _Automatic_, if prefered.
  
 ## Notes
 * 2.2.0.29 & 3.0.0.8 are [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4) that must be upgraded in succession - others will probably exist in the future, see the previous link for details.
-* When/If the SFOS upgrade fails see [this](https://jolla.zendesk.com/hc/en-us/articles/360005795474) for help. Doing the cleanups, setting the release back to the current version and running `pkcon refresh`, `pkcon update` & `reboot` is worth trying. 
+* When/If the SFOS upgrade fails see [this](https://jolla.zendesk.com/hc/en-us/articles/360005795474) for help. Doing the cleanups, setting the release back to the current version and running `pkcon refresh`, `pkcon update` & `reboot` and re-running the upgrade is worth trying. 
