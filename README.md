@@ -63,7 +63,7 @@ reboot
 ```
 GUI updates seem to be also possible as a test upgrade worked fine. Take this with a grain of salt, though.  
 
-The Sailfish OS update check can now be turned back to _Automatic_, if prefered.
+The Sailfish OS update check can now be turned back to _Automatic_, if preferred.
  
 ## Notes
 * 2.2.0.29 & 3.0.0.8 are [stop releases](https://jolla.zendesk.com/hc/en-us/articles/201836347#4) that must be upgraded in succession - others will probably exist in the future, see the previous link for details.
