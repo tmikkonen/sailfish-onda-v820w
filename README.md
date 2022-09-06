@@ -70,4 +70,4 @@ The Sailfish OS update check can now be turned back to _Automatic_, if preferred
 * When/If the SFOS upgrade fails see [this](https://jolla.zendesk.com/hc/en-us/articles/360005795474) for help. Doing the cleanups, setting the release back to the current version and running `pkcon refresh`, `pkcon update` & `reboot` and re-running the upgrade is worth trying. 
 
 ## Known Issues
-Upgrading past SFOS 3.3.0.16 will most likely [result booting to a blank screen](https://talk.maemo.org/showpost.php?p=1574126&postcount=265). You have been warned!
+On a tablet other than V3 upgrading past SFOS 3.3.0.16 will most likely [result booting to a blank screen](https://talk.maemo.org/showpost.php?p=1574126&postcount=265). You have been warned!
