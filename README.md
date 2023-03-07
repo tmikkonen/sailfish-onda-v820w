@@ -59,7 +59,7 @@ reboot
 From now on it should be possible to upgrade quite easily e.g. 
 
 ```
-ssu re 3.0.3.9
+ssu re 3.2.0.12
 version --dup
 reboot
 ```
@@ -70,7 +70,7 @@ The Sailfish OS update check can now be turned back to _Automatic_, if preferred
 Check the device settings and adjust to your liking. Open the Jolla Store and install the apps you like. Also check out [OpenRepos](https://openrepos.net/content/basil/about-openrepos).
 
 ## Notes
-* 2.2.0.29 & 3.0.0.8 are [stop releases](https://docs.sailfishos.org/Support/Releases/) that must be upgraded in succession - others will probably exist in the future, see the [here](https://docs.sailfishos.org/Support/Help_Articles/Updating_Sailfish_OS/) for details.
+* 2.2.0.29, 3.0.0.8, 3.2.0.12 are [stop releases](https://docs.sailfishos.org/Support/Releases/) that must be upgraded in succession - others will probably exist in the future, see the [here](https://docs.sailfishos.org/Support/Help_Articles/Updating_Sailfish_OS/) for details.
 * When/If the SFOS upgrade fails see [this](https://docs.sailfishos.org/Support/Help_Articles/Updating_Sailfish_OS/#what-if-installing-an-os-update-fails-but-download-worked) for help. Doing the cleanups, setting the release back to the current version and running `pkcon refresh`, `pkcon update` & `reboot` and re-running the upgrade is worth trying. 
 
 ## Known Issues
