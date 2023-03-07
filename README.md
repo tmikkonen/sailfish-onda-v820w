@@ -26,7 +26,8 @@ The scripts were created on Onda V820W V5 but should work also on V3. The main d
 * Start the Terminal: `devel-su`, enter password  
   get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.0.5.6.sh`  
   make sure it is executable `chmod u+x upgrade-2.0.5.6.sh`  
-  run script `./upgrade-2.0.5.6.sh`
+  run script `./upgrade-2.0.5.6.sh`  
+  the tablet will reboot when finished
 
 ### Upgrade to 2.2.0.29
 (from 2.0.5.6)
