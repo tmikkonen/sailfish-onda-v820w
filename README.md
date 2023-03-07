@@ -67,7 +67,7 @@ GUI updates seem to be also possible based on a succesceful test upgrade but tak
 
 The Sailfish OS update check can now be turned back to _Automatic_, if preferred.
 
-Check the device settings and adjust to your liking. Open the Jolla Store and install the apps you like. Also check out [OpenRepos](https://openrepos.net/content/basil/about-openrepos).
+Check the device settings and adjust to your liking e.g. re-enable _Adjust automatically_ for display brightness. Open the Jolla Store and install the apps you like. Also check out [OpenRepos](https://openrepos.net/content/basil/about-openrepos).
 
 ## Notes
 * 2.2.0.29, 3.0.0.8 and 3.2.0.12 are [stop releases](https://docs.sailfishos.org/Support/Releases/) that must be upgraded in succession - others will probably exist in the future, see the [here](https://docs.sailfishos.org/Support/Help_Articles/Updating_Sailfish_OS/) for details.
