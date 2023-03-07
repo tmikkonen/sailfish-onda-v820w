@@ -77,4 +77,4 @@ Check the device settings and adjust to your liking. Open the Jolla Store and in
 On a tablet other than V3 upgrading past SFOS 3.3.0.16 will most likely [result booting to a blank screen](https://talk.maemo.org/showpost.php?p=1574126&postcount=265). You have been warned!
 
 Connecting to the WLAN can be cranky but should get better once you update to at least 2.2.0.29.
-Personlly, I've had the best results (while WLAN off) first at adding the Jolla Account and afterwards trying to connect to the Jolla Store and following the WLAN prompts. YMMV.
+The best results were (while WLAN off) first at adding the Jolla Account and afterwards trying to connect to the Jolla Store and following the WLAN prompts. YMMV.
