@@ -23,7 +23,7 @@ The scripts were created on Onda V820W V5 but should work also on V3. The main d
 * Add a _Jolla Account_ and Turn on WLAN & connect to the Internet when prompted
 * Create new/use existing credentials (speed up the process by unselecting & skipping any installations at this time)
 * Switch the Sailfish OS update check from _Automatic_ to _Manual_
-* Start the Terminal: `devel-su`, enter password
+* Start the Terminal: `devel-su`, enter password  
   get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.0.5.6.sh`  
   make sure it is executable `chmod u+x upgrade-2.0.5.6.sh`  
   run script `./upgrade-2.0.5.6.sh`
