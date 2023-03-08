@@ -18,11 +18,11 @@ The scripts were created on Onda V820W V5 but should work also on V3. The main d
 
 * After the first boot, select language, accept the End User Licence, skip Time Setting, skip Connect to the Internet and bypass the Sailfish Tutorial by tapping screen corners clockwise starting from the top left
 * The USB stick isn't needed anymore. Now would be a good time to set the tablet to recharge if it isn't already
-* Enable _Developer mode_ and allow _Untrusted software_ in Settings
-* Disable _Adjust automatically_ for brightness & set _Keep the display on while charging_ in Display settings
-* Add a _Jolla Account_ and Turn on WLAN & connect to the Internet when prompted
+* Settings->_Display_ disable _Adjust automatically_ for brightness & set _Keep the display on while charging_ 
+* Also in Settings, allow _Untrusted software_, make sure _Developer mode_ is on and set the SSH password.
+* Add _Jolla Account_ in Accounts, choose Turn on WLAN & connect to the Internet when prompted
 * Create new/use existing credentials (speed up the process by unselecting & skipping any installations at this time)
-* Switch the Sailfish OS update check from _Automatic_ to _Manual_
+* Settings->Sailfish OS update, switch the check from _Automatic_ to _Manual_
 * Start the Terminal: `devel-su`, enter password  
   get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.0.5.6.sh`  
   make sure it is executable `chmod u+x upgrade-2.0.5.6.sh`  
@@ -75,7 +75,7 @@ Check the device settings and adjust to your liking e.g. re-enable _Adjust autom
 * When/If the SFOS upgrade fails see [this](https://docs.sailfishos.org/Support/Help_Articles/Updating_Sailfish_OS/#what-if-installing-an-os-update-fails-but-download-worked) for help. Doing the cleanups, setting the release back to the current version and running `pkcon refresh`, `pkcon update` & `reboot` and re-running the upgrade is worth trying. 
 
 ## Known Issues
-On a tablet other than V3 upgrading past SFOS 3.3.0.16 will most likely [result booting to a blank screen](https://talk.maemo.org/showpost.php?p=1574126&postcount=265). You have been warned!
+At least with V5 tablets upgrading past SFOS 3.3.0.16 will most likely [result booting to a blank screen](https://talk.maemo.org/showpost.php?p=1574126&postcount=265). You have been warned!
 
 Connecting to the WLAN can be cranky but should get better once you update to at least 2.2.0.29.
 The best results were (while WLAN off) first at adding the Jolla Account and afterwards trying to connect to the Jolla Store and following the WLAN prompts. YMMV.
