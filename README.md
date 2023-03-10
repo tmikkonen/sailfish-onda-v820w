@@ -23,7 +23,7 @@ The scripts were created on Onda V820W V5 but should work also on V3. The main d
 * Add _Jolla Account_ in Accounts, choose Turn on WLAN & connect to the Internet when prompted
 * Create new/use existing credentials (speed up the process by unselecting & skipping any installations at this time)
 * Settings->Sailfish OS update, switch the check from _Automatic_ to _Manual_
-* Start the Terminal: `devel-su`, enter password  
+* Start the Terminal, `devel-su`, enter password  
   get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.0.5.6.sh`  
   make sure it is executable `chmod u+x upgrade-2.0.5.6.sh`  
   run script `./upgrade-2.0.5.6.sh`  
@@ -31,14 +31,15 @@ The scripts were created on Onda V820W V5 but should work also on V3. The main d
 
 ### Upgrade to 2.2.0.29
 (from 2.0.5.6)
-* Start the Terminal: `devel-su`, enter password  
+* Start the Terminal, `devel-su`, enter password  
   get script `curl -O https://raw.githubusercontent.com/tmikkonen/sailfish-onda-v820w/master/upgrade-2.2.0.29.sh`  
   make sure it is executable `chmod u+x upgrade-2.2.0.29.sh`  
   run script `./upgrade-2.2.0.29.sh`  
-The script probably presents you with choices as solutions to problems.  
-To the first number choice answer with `1` to deinstall packages and then `y`,  
-to the second number choice answer with `2` to break pattern and then `y`.
-* After reboot manually fix missing packages 
+* The script probably presents you one or more choices as solutions to problems.  
+Answer with the highest number (`3` or `2`) to break pattern followed by `y`. 
+* If installing yabit gives you an error, answer `a` to abort.  
+[Yabit](https://github.com/g7/yabit) is (just) a tool for Android Bootimages (and packaged for too new rpm version–hence the error)
+* After reboot, manually fix missing packages (start the Terminal, `devel-su`, enter password): 
 ```
 pkcon refresh
 pkcon install jolla-keyboard-layout-all jolla-settings-system-sideloading
@@ -51,7 +52,7 @@ zypper in jolla-keyboard-layout-all jolla-settings-system-sideloading
 ```
 
 ### Upgrade to Sailfish 3
-* `devel-su`, enter password
+* Start the Terminal, `devel-su`, enter password
 ```
 ssu re 3.0.0.8
 version --dup
@@ -64,7 +65,7 @@ ssu re 3.2.0.12
 version --dup
 reboot
 ```
-GUI updates seem to be also possible based on a succesceful test upgrade but take this with a grain of salt, though.  
+GUI updates seem to be also possible based on a succesful test upgrade but take this with a grain of salt, though.  
 
 The Sailfish OS update check can now be turned back to _Automatic_, if preferred.
 
@@ -72,6 +73,7 @@ Check the device settings and adjust to your liking e.g. re-enable _Adjust autom
 
 ## Notes
 * 2.2.0.29, 3.0.0.8 and 3.2.0.12 are [stop releases](https://docs.sailfishos.org/Support/Releases/) that must be upgraded in succession - others will probably exist in the future, see the [here](https://docs.sailfishos.org/Support/Help_Articles/Updating_Sailfish_OS/) for details.
+* After installing 3.3.0.16 SSH Remote Connection needs to be re-enabled in Settings->Developer tools.
 * When/If the SFOS upgrade fails see [this](https://docs.sailfishos.org/Support/Help_Articles/Updating_Sailfish_OS/#what-if-installing-an-os-update-fails-but-download-worked) for help. Doing the cleanups, setting the release back to the current version and running `pkcon refresh`, `pkcon update` & `reboot` and re-running the upgrade is worth trying. 
 
 ## Known Issues
