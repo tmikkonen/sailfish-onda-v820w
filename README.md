@@ -37,7 +37,7 @@ The scripts were created on Onda V820W V5 but should work also on V3. The main d
   run script `./upgrade-2.2.0.29.sh`  
 * The script probably presents you one or more choices as solutions to problems.  
 Answer with the highest number (`3` or `2`) to break pattern followed by `y`. 
-* If installing yabit gives you an error, answer `a` to abort.  
+* If installing yabit gives you an error, answer `i` to ignore.  
 [Yabit](https://github.com/g7/yabit) is (just) a tool for Android Bootimages and packaged for too new rpm version–hence the error.
 * After reboot, manually fix missing packages (start the Terminal, `devel-su`, enter password): 
 ```
