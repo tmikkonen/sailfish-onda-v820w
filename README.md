@@ -81,3 +81,5 @@ At least with V5 tablets upgrading past SFOS 3.3.0.16 will most likely [result b
 
 Connecting to the WLAN can be cranky but should get better once you update to at least 2.2.0.29.
 The best results were (while WLAN off) first at adding the Jolla Account and afterwards trying to connect to the Jolla Store and following the WLAN prompts. YMMV.
+
+As of now (Feb 2024), the repo http://sfos.scanf.su/onda-v820w-v3/ is down. Therefore, it is not possible to use the script to update to 2.0.5.6. Hopefully, the repo or a mirror of it emerges someday. Until then, DO NOT RESET YOUR WORKING TABLET as you most likely cannot get it back from a scratch without a backup!
